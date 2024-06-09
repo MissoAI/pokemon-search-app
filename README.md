@@ -11,5 +11,5 @@ Pokémon search App built with HTML, CSS, JAVASCRIPT.
 https://github.com/MissoAI/pokemon-search-app.git
 ```
 
-# Additional Note
-  *Fell free to change it!
+# Additional Note:
+  * Fell free to change it!
