@@ -9,6 +9,7 @@ Pokémon search App built with HTML, CSS, JAVASCRIPT.
 1- Clone this repo in order to run in your device:
 ```bash 
 https://github.com/MissoAI/pokemon-search-app.git
+```
 
 # Additional Note
   *Fell free to change it!
