@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 7%, 24%);
+}
+
+th,
+td {
+    border: 1px solid black;
+    font-size: larger;
+    padding: 10px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    font-family: system-ui;
+}
+
+
+main {
+    height: 800px;
+    width: 25%;
+    background-color: rgb(211, 216, 214);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+#search-input {
+    position: relative;
+    left: 15%;
+    font-size: large;
+    height: 40px;
+    width: 200px;
+    outline: none;
+}
+
+#search-btn {
+    position: relative;
+    left: 15%;
+    font-size: large;
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(122, 39%, 49%);
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.top-container {
+    height: 300px;
+    width: 100%;
+    background-color: hsl(60, 7%, 92%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#title {
+    text-align: center;
+    font-family: system-ui;
+}
+
+.poke-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font-size: large;
+    font-family: system-ui;
+}
+
+#types {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    justify-content: start;
+    align-items: end;
+}
+
+.normal {
+    background-color: #b7b7aa;
+}
+
+.fire {
+    background-color: #ff6f52;
+}
+
+.water {
+    background-color: #42a1ff;
+}
+
+.electric {
+    background-color: #fecc33;
+}
+
+.grass {
+    background-color: #78cc55;
+}
+
+.ice {
+    background-color: #66ccfe;
+}
+
+.fighting {
+    background-color: #d3887e;
+}
+
+.poison {
+    background-color: #c68bb7;
+}
+
+.ground {
+    background-color: #dfba52;
+}
+
+.flying {
+    background-color: #8899ff;
+}
+
+.psychic {
+    background-color: #ff66a3;
+}
+
+.bug {
+    background-color: #aabb23;
+}
+
+.rock {
+    background-color: #baaa66;
+}
+
+.ghost {
+    background-color: #9995d0;
+}
+
+.dragon {
+    background-color: #9e93f1;
+}
+
+.dark {
+    background-color: #b59682;
+}
+
+.steel {
+    background-color: #abaabb;
+}
+
+.fairy {
+    background-color: #ed99ed;
+}
+
+.type {
+    padding: 10px;
+    font-size: large;
+    font-family: system-ui;
+}
