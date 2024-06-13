@@ -1,5 +1,5 @@
 # Pokémon Search App!!
-Pokémon search App built with HTML, CSS, JAVASCRIPT.
+Pokémon search App built with HTML, CSS, JavaScript.
 # Features:
   * All Pokémons are available
   * Shows their stats, abilities, and more!
