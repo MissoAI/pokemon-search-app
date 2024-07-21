@@ -27,15 +27,15 @@ async function fetchData() {
     speed.innerText = data.stats[5].base_stat;
     types.innerHTML = data.types
     .map(
-      (obj) => `<span class="type ${obj.type.name}">${obj.type.name}</span>`
+      (obj) => `<span class="type ${obj.type.name}">${obj.type.name.toUpperCase()}</span>`
     )
     .join("");
     topDiv.innerHTML = `
-        <h3 style="font-family:system-ui;">${data.name.toUpperCase()} #${
-      data.id
+        <h3 id="pokemon-name" style="font-family:system-ui;">${data.name.toUpperCase()} <span id="pokemon-id">#${
+      data.id</span>
     }</h3>
-        <p class="Height">Height: ${data.height}</p>
-        <p class="Weight">Weight: ${data.weight}</p>
+        <p id="height">Height: ${data.height}</p>
+        <p id="weight">Weight: ${data.weight}</p>
         <div class="poke-img">
             <img src="${data.sprites.front_default}" alt="${data.name}">
         </div>
